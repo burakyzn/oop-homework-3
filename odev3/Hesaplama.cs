@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace odev3
 {
@@ -63,7 +60,7 @@ namespace odev3
                     if (i == hesaplanacak.Length - 1 && Char.IsDigit(hesaplanacak[i]) == false)
                         hata = true;
                     if ((Char.IsDigit(hesaplanacak[i]) == false) && (Char.IsDigit(hesaplanacak[i + 1]) == false))
-                        hata = true;
+                        hata = true;                   
                 }
 
                 if (hata == true)
